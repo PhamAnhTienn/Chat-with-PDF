@@ -1,5 +1,6 @@
 from dependencies import *
 from chatWithPdf import show_chat_page
+from chatWithMySQL import show_SQL_page
 
 
 def show_home_page():
@@ -19,6 +20,8 @@ def main():
         show_home_page()
     elif st.session_state.current_page == "Chat":
         show_chat_page()
+    elif st.session_state.current_page == "SQL":
+        show_SQL_page()
         
 if __name__ == '__main__':
     main()
