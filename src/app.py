@@ -1,7 +1,6 @@
-from dependencies import *
-from chatWithPdf import show_chat_page
-from chatWithMySQL import show_SQL_page
-
+from Pdf import show_chat_page
+from SQL import show_SQL_page
+import streamlit as st
 
 def show_home_page():
     st.title("Home Page")

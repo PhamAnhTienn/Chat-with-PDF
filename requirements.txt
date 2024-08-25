@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+langchain
+langchain-community
+langchain_groq
+langchain_pinecone
+PyPDF2
+faiss-cpu
+sentence-transformers
+pinecone
