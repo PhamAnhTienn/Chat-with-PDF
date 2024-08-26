@@ -1,5 +1,4 @@
 from Pdf import show_chat_page
-from SQL import show_SQL_page
 import streamlit as st
 
 def show_home_page():
@@ -19,8 +18,6 @@ def main():
         show_home_page()
     elif st.session_state.current_page == "Chat":
         show_chat_page()
-    elif st.session_state.current_page == "SQL":
-        show_SQL_page()
         
 if __name__ == '__main__':
     main()
